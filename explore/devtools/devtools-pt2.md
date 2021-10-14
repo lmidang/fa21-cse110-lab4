@@ -1,0 +1,2 @@
+1. The bug as that the input values are read as string, so when they're added together they are still treated as string and the resulting sum is a string.
+2. I would fix this bug by converting the inputs into integers using `parseInt()`.
